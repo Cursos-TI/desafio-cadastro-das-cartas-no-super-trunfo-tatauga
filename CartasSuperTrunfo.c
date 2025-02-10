@@ -6,7 +6,7 @@ char nome[50];
 int populacao;
 float area;
 float pib;
-int ponto_turisticos;
+int pontos_turisticos;
 
 printf("Cadastro das Cartas - Paises\n");
 
@@ -17,7 +17,7 @@ printf("Nome da Cidade; ");
 scanf(" %[^\n]", nome);
 
 printf("Digite a população da cidade: ");
-scnaf("%d", &populacao);
+scanf("%d", &populacao);
 
 printf("Digite a área da cidade (em km²): ");
 scanf("%f", &area);
@@ -36,7 +36,7 @@ printf("Nome da Cidade: %s\n", nome);
 printf("População; %d\n",populacao);
 printf("Área: %.2f km²\n", area);
 printf("PIB: R$ %.2f\n", pib);
-printf("Ponto Turísticos: %d\n", Pontos_turistico);
+printf("Ponto Turísticos: %d\n", Pontos_turisticos);
 
 
     return 0;
