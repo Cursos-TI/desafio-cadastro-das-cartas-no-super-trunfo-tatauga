@@ -16,20 +16,28 @@ scanf("%d", &codigo);
 printf("Nome da Cidade; ");
 scanf(" %[^\n]", nome);
 
-printf("Digita a população da cidade: ");
+printf("Digite a população da cidade: ");
 scnaf("%d", &populacao);
 
-printf("Digita a área da cidade (em km²): ");
+printf("Digite a área da cidade (em km²): ");
 scanf("%f", &area);
 
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+printf("Digite o PID da Cidade: ");
+scanf("%f", &pib);
+
+printf("Digite o número de pontos turístidos: ");
+scanf("%d", &pontos_turisticos);
+
+// Exibição dos  Dados das Cartas
+
+printf("\nDados Cadastrados:\n");
+printf("Código da Cidade: %d\n", codigo);
+printf("Nome da Cidade: %s\n", nome);
+printf("População; %d\n",populacao);
+printf("Área: %.2f km²\n", area);
+printf("PIB: R$ %.2f\n", pib);
+printf("Ponto Turísticos: %d\n", Pontos_turistico);
+
 
     return 0;
 }
