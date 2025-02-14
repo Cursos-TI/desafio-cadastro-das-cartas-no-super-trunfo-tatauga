@@ -13,7 +13,7 @@ printf("Cadastro das Cartas - Paises\n");
 printf("Digite o código da cidade: ");
 scanf("%d", &codigo);
 
-printf("Nome da Cidade; ");
+printf("Nome da Cidade: ");
 scanf(" %[^\n]", nome);
 
 printf("Digite a população da cidade: ");
@@ -22,10 +22,10 @@ scanf("%d", &populacao);
 printf("Digite a área da cidade (em km²): ");
 scanf("%f", &area);
 
-printf("Digite o PID da Cidade: ");
+printf("Digite o PIB da Cidade: ");
 scanf("%f", &pib);
 
-printf("Digite o número de pontos turístidos: ");
+printf("Digite o número de Pontos Turístidos: ");
 scanf("%d", &pontos_turisticos);
 
 // Exibição dos  Dados das Cartas
